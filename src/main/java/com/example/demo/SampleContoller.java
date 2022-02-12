@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleContoller {
 
     //New comment added
-    //Add Feature
+    //Add Feature one
+    //Added Feature two
     @GetMapping
     public String hello(){
         return "Hello World!!";
